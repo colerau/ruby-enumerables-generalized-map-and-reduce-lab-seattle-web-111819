@@ -13,3 +13,6 @@ def reduce(array, starting_point = nil)
     i = 0
     sum = starting_point 
     i += 1 
+  else 
+    i = 1 
+    sum = array[i]
