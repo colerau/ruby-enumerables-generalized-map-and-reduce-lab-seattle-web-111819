@@ -22,4 +22,3 @@ def reduce(array, starting_point = nil)
   end 
   sum 
 end 
-    
