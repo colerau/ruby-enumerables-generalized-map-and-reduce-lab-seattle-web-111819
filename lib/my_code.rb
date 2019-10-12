@@ -13,8 +13,8 @@ def reduce(array, starting_point = nil)
     i = 0
     sum = starting_point 
   else 
-    i = 0 
-    sum = array[i]
+    sum = array[0]
+    i = 1 
   end 
   while i < array.length do 
     sum = yield(sum, array[i])
